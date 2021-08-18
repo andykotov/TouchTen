@@ -9,9 +9,11 @@ import SwiftUI
 
 @main
 struct TouchTenApp: App {
+    @ObservedObject var model = Model()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(model)
         }
     }
 }

@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181474AE26CD7430005BB1FB /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181474AD26CD7430005BB1FB /* WebView.swift */; };
 		1868443126CD4F1800F020A5 /* TouchTenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868443026CD4F1800F020A5 /* TouchTenApp.swift */; };
 		1868443326CD4F1800F020A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868443226CD4F1800F020A5 /* ContentView.swift */; };
 		1868443526CD4F1900F020A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868443426CD4F1900F020A5 /* Assets.xcassets */; };
 		1868443826CD4F1900F020A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1868443726CD4F1900F020A5 /* Preview Assets.xcassets */; };
+		1868444226CD521800F020A5 /* Aim.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868444126CD521800F020A5 /* Aim.swift */; };
+		1868444426CD533E00F020A5 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868444326CD533E00F020A5 /* Model.swift */; };
+		1868444626CD537D00F020A5 /* GameBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868444526CD537D00F020A5 /* GameBehavior.swift */; };
+		1868444826CD543800F020A5 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868444726CD543700F020A5 /* StartView.swift */; };
+		1868444A26CD590300F020A5 /* AimBehavior.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1868444926CD590300F020A5 /* AimBehavior.swift */; };
+		18EA443926CDB99A001E9A9E /* Onboarding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18EA443826CDB99A001E9A9E /* Onboarding.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		181474AD26CD7430005BB1FB /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		1868442D26CD4F1800F020A5 /* TouchTen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TouchTen.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1868443026CD4F1800F020A5 /* TouchTenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTenApp.swift; sourceTree = "<group>"; };
 		1868443226CD4F1800F020A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1868443426CD4F1900F020A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1868443726CD4F1900F020A5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1868443926CD4F1900F020A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1868444126CD521800F020A5 /* Aim.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Aim.swift; sourceTree = "<group>"; };
+		1868444326CD533E00F020A5 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		1868444526CD537D00F020A5 /* GameBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBehavior.swift; sourceTree = "<group>"; };
+		1868444726CD543700F020A5 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		1868444926CD590300F020A5 /* AimBehavior.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AimBehavior.swift; sourceTree = "<group>"; };
+		18EA443826CDB99A001E9A9E /* Onboarding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Onboarding.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +66,8 @@
 		1868442F26CD4F1800F020A5 /* TouchTen */ = {
 			isa = PBXGroup;
 			children = (
+				1868444026CD520100F020A5 /* View */,
+				1868443F26CD51F900F020A5 /* Model */,
 				1868443026CD4F1800F020A5 /* TouchTenApp.swift */,
 				1868443226CD4F1800F020A5 /* ContentView.swift */,
 				1868443426CD4F1900F020A5 /* Assets.xcassets */,
@@ -67,6 +83,27 @@
 				1868443726CD4F1900F020A5 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1868443F26CD51F900F020A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1868444326CD533E00F020A5 /* Model.swift */,
+				1868444526CD537D00F020A5 /* GameBehavior.swift */,
+				1868444926CD590300F020A5 /* AimBehavior.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1868444026CD520100F020A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1868444126CD521800F020A5 /* Aim.swift */,
+				1868444726CD543700F020A5 /* StartView.swift */,
+				181474AD26CD7430005BB1FB /* WebView.swift */,
+				18EA443826CDB99A001E9A9E /* Onboarding.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,8 +175,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18EA443926CDB99A001E9A9E /* Onboarding.swift in Sources */,
+				1868444A26CD590300F020A5 /* AimBehavior.swift in Sources */,
 				1868443326CD4F1800F020A5 /* ContentView.swift in Sources */,
+				1868444626CD537D00F020A5 /* GameBehavior.swift in Sources */,
+				1868444226CD521800F020A5 /* Aim.swift in Sources */,
+				1868444826CD543800F020A5 /* StartView.swift in Sources */,
 				1868443126CD4F1800F020A5 /* TouchTenApp.swift in Sources */,
+				181474AE26CD7430005BB1FB /* WebView.swift in Sources */,
+				1868444426CD533E00F020A5 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
